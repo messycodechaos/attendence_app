@@ -48,7 +48,7 @@ Create these files (or change the names to match your screens):
 
 | Student dashboard | Attendance screen | Management dashboard |
 |---|---|---|
-| ![Student dashboard](docs/screenshots/student-dashboard.png) | ![Attendance screen](docs/screenshots/attendance.png) | ![Management dashboard](docs/screenshots/management-dashboard.png) |
+| ![Student dashboard](docs/screenshots/student1.png) | ![Attendance screen](docs/screenshots/attendance.png) | ![Management dashboard](docs/screenshots/management-dashboard.png) |
 
 **Before adding screenshots**
 - Capture the real application on an emulator or device.
