@@ -42,9 +42,6 @@ Some features require a correctly configured Supabase project. The list above de
 
 ## Screenshots
 
-Screenshots help reviewers understand the app before setting up the development environment. Add real screenshots from a running build to `docs/screenshots/` and use the relative paths below. GitHub renders repository-relative image paths in the README. See [GitHub's image and Markdown guide](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#images).
-
-Create these files (or change the names to match your screens):
 ### 🔐 Login
 ![Login Screen](screenshots/login.png)
 
@@ -69,13 +66,6 @@ Create these files (or change the names to match your screens):
 ![Student Dashboard 2](screenshots/student2.png)
 ![Student Dashboard 3](screenshots/student3.png)
 ![Student Dashboard 4](screenshots/student4.png)
-
-**Before adding screenshots**
-- Capture the real application on an emulator or device.
-- Use test/demo data only; hide student names, IDs, attendance records, messages, email addresses and other personal information.
-- Use descriptive filenames without spaces.
-- Preview the README after committing to confirm the images render.
-- If you do not yet have screenshots, leave this section as a reminder and remove the empty image table until the files exist.
 
 ## Technology stack
 
@@ -145,7 +135,6 @@ flutter devices
 flutter run
 ```
 
-The app may not be fully functional until Supabase and any required backend data are configured.
 
 ## Build Locally
 
@@ -193,7 +182,6 @@ The repository currently includes these notable files/modules:
 └── README.md
 ```
 
-This is a high-level guide, not an exhaustive file listing. Keep this section aligned with the actual repository if files are renamed or moved.
 
 ## Quality Checks
 
