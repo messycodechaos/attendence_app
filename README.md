@@ -6,7 +6,7 @@
 
 A Flutter application with attendance-related dashboards and supporting academic workflows.
 
-[Features](#features) · [Screenshots](#screenshots) · [Getting Started](#getting-started) · [Build APK](#build-an-android-apk) · [Project Structure](#project-structure)
+[Features](#features) · [Screenshots](#screenshots) · [Getting Started](#getting-started) · [Build Locally](#build-locally) · [Project Structure](#project-structure)
 
 [![Flutter](https://img.shields.io/badge/Flutter-3.32%2B-02569B?logo=flutter&logoColor=white)](https://flutter.dev/)
 [![Dart](https://img.shields.io/badge/Dart-3.8%2B-0175C2?logo=dart&logoColor=white)](https://dart.dev/)
@@ -42,19 +42,20 @@ Some features require a correctly configured Supabase project. The list above de
 
 ## Screenshots
 
-Add real screenshots of the running app to `docs/screenshots/`, then update the image paths below. Do not include real student names, attendance records, messages, IDs, or other personal information in screenshots.
+Screenshots help reviewers understand the app before setting up the development environment. Add real screenshots from a running build to `docs/screenshots/` and use the relative paths below. GitHub renders repository-relative image paths in the README. See [GitHub's image and Markdown guide](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#images).
 
-| Student experience | Faculty / attendance | Management |
+Create these files (or change the names to match your screens):
+
+| Student dashboard | Attendance screen | Management dashboard |
 |---|---|---|
-| `docs/screenshots/student-dashboard.png` | `docs/screenshots/attendance.png` | `docs/screenshots/management-dashboard.png` |
+| ![Student dashboard](docs/screenshots/student-dashboard.png) | ![Attendance screen](docs/screenshots/attendance.png) | ![Management dashboard](docs/screenshots/management-dashboard.png) |
 
-When the screenshots are ready, replace this table with:
-
-```markdown
-![Student dashboard](docs/screenshots/student-dashboard.png)
-![Attendance screen](docs/screenshots/attendance.png)
-![Management dashboard](docs/screenshots/management-dashboard.png)
-```
+**Before adding screenshots**
+- Capture the real application on an emulator or device.
+- Use test/demo data only; hide student names, IDs, attendance records, messages, email addresses and other personal information.
+- Use descriptive filenames without spaces.
+- Preview the README after committing to confirm the images render.
+- If you do not yet have screenshots, leave this section as a reminder and remove the empty image table until the files exist.
 
 ## Technology stack
 
@@ -126,53 +127,24 @@ flutter run
 
 The app may not be fully functional until Supabase and any required backend data are configured.
 
-## Build an Android APK
+## Build Locally
 
-To build a local APK for testing:
+You can build and run the application locally after installing the required Flutter and Android tooling.
+
+```bash
+flutter pub get
+flutter run
+```
+
+To build an Android APK for your own testing:
 
 ```bash
 flutter build apk --debug
 ```
 
-The debug APK is normally created at:
+The debug APK is normally created at `build/app/outputs/flutter-apk/app-debug.apk`.
 
-```text
-build/app/outputs/flutter-apk/app-debug.apk
-```
-
-For a release-mode APK:
-
-```bash
-flutter build apk --release
-```
-
-The release APK is normally created at:
-
-```text
-build/app/outputs/flutter-apk/app-release.apk
-```
-
-Before sharing a release build, configure Android signing as appropriate and test the APK on a clean device. Do not commit signing keystores or passwords.
-
-### Download a test APK
-
-**No APK download is linked here until a build has been tested and published.**
-
-After publishing a GitHub Release with an APK attached, update this link:
-
-> **[Download the latest APK](https://github.com/messycodechaos/attendence_app/releases/latest)**
-
-To publish a build manually:
-
-1. Build and test the APK locally.
-2. Open the repository's **Releases** page:  
-   https://github.com/messycodechaos/attendence_app/releases
-3. Select **Draft a new release**.
-4. Create a version tag such as `v1.0.0` (use a new version for each release).
-5. Add release notes, attach the APK file, and mark it as a pre-release if it is only for early testing.
-6. Publish the release and confirm the download works before announcing it.
-
-Clearly label experimental builds. Android may show a warning when installing an APK downloaded outside the Play Store; users should install only builds they trust.
+A downloadable APK is not currently provided by this repository. This keeps the project focused on source code and documentation; reviewers can inspect the implementation or build it locally. 
 
 ## Project Structure
 
@@ -219,9 +191,6 @@ Resolve any new analyzer errors and test failures caused by your changes. If a t
 
 Bug reports and improvements are welcome. Please read [`CONTRIBUTING.md`](CONTRIBUTING.md) before opening an issue or pull request.
 
-## Security
-
-Please do not report security vulnerabilities in public issues. See [`SECURITY.md`](SECURITY.md) for responsible disclosure guidance.
 
 ## License
 
