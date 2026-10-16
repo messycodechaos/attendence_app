@@ -48,10 +48,27 @@ Create these files (or change the names to match your screens):
 ### 🔐 Login
 ![Login Screen](screenshots/login.png)
 
-### 🎓 Student Dashboard
-| Student dashboard | Attendance screen | Management dashboard |
-|---|---|---|
-| ![Student dashboard](docs/screenshots/student1.png) | ![Attendance screen](docs/screenshots/attendance.png) | ![Management dashboard](docs/screenshots/management-dashboard.png) |
+### 🛡️ Management Dashboard
+![Admin Dashboard 1](screenshots/manag1.png)
+![Admin Dashboard 2](screenshots/manag2.png)
+![Admin Dashboard 3](screenshots/manag3.png)
+
+### 🛡️ Admin Dashboard
+![Admin Dashboard 1](screenshots/admin1.png)
+![Admin Dashboard 2](screenshots/admin2.png)
+
+### 🛡️ Faculity Dashboard
+![Faculity Dashboard 1](screenshots/faculity1.png)
+![Faculity Dashboard 2](screenshots/faculity2.png)
+![Faculity Dashboard 3](screenshots/faculity3.png)
+![Faculity Dashboard 4](screenshots/faculity4.png)
+![Faculity Dashboard 5](screenshots/faculity5.png)
+
+### 🛡️ Student Dashboard
+![Student Dashboard 1](screenshots/student1.png)
+![Student Dashboard 2](screenshots/student2.png)
+![Student Dashboard 3](screenshots/student3.png)
+![Student Dashboard 4](screenshots/student4.png)
 
 **Before adding screenshots**
 - Capture the real application on an emulator or device.
