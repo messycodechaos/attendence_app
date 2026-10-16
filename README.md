@@ -45,7 +45,10 @@ Some features require a correctly configured Supabase project. The list above de
 Screenshots help reviewers understand the app before setting up the development environment. Add real screenshots from a running build to `docs/screenshots/` and use the relative paths below. GitHub renders repository-relative image paths in the README. See [GitHub's image and Markdown guide](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#images).
 
 Create these files (or change the names to match your screens):
+### 🔐 Login
+![Login Screen](screenshots/login.png)
 
+### 🎓 Student Dashboard
 | Student dashboard | Attendance screen | Management dashboard |
 |---|---|---|
 | ![Student dashboard](docs/screenshots/student1.png) | ![Attendance screen](docs/screenshots/attendance.png) | ![Management dashboard](docs/screenshots/management-dashboard.png) |
