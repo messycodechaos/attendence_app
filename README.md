@@ -54,7 +54,7 @@ Some features require a correctly configured Supabase project. The list above de
 ![Admin Dashboard 1](screenshots/admin1.png)
 ![Admin Dashboard 2](screenshots/admin2.png)
 
-### 🛡️ Faculity Dashboard
+### 🛡️ Faculty Dashboard
 ![Faculity Dashboard 1](screenshots/faculity1.png)
 ![Faculity Dashboard 2](screenshots/faculity2.png)
 ![Faculity Dashboard 3](screenshots/faculity3.png)
